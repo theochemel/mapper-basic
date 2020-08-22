@@ -7,12 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E4132D3024EF16E6002411AD /* ScanRecorderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4132D2F24EF16E6002411AD /* ScanRecorderViewController.swift */; };
+		E4132D3224EF1710002411AD /* ScanRecorderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4132D3124EF1710002411AD /* ScanRecorderView.swift */; };
+		E4132D3424EF1726002411AD /* ScanRecorderViewControllerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4132D3324EF1726002411AD /* ScanRecorderViewControllerDelegate.swift */; };
+		E4132D3624EF17D9002411AD /* PointCloud.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4132D3524EF17D9002411AD /* PointCloud.swift */; };
+		E4132D3824EF17E8002411AD /* PointCloudManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4132D3724EF17E8002411AD /* PointCloudManager.swift */; };
+		E4132D3E24EF1840002411AD /* PointCloud.metal in Sources */ = {isa = PBXBuildFile; fileRef = E4132D3D24EF1840002411AD /* PointCloud.metal */; };
+		E4132D4124EF186C002411AD /* MetalBuffer.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4132D4024EF186C002411AD /* MetalBuffer.swift */; };
+		E4132D4324EF1925002411AD /* ScanRecorder.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4132D4224EF1925002411AD /* ScanRecorder.swift */; };
+		E4132D4524EF1990002411AD /* ARViewProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4132D4424EF1990002411AD /* ARViewProvider.swift */; };
+		E4132D4A24EF1C1F002411AD /* ScanRecorderDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4132D4924EF1C1F002411AD /* ScanRecorderDelegate.swift */; };
+		E4132D4C24EF1FB7002411AD /* Scan.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4132D4B24EF1FB7002411AD /* Scan.swift */; };
 		E4D3109324EDD7AE00D6A1E3 /* mapper_basicApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4D3109224EDD7AE00D6A1E3 /* mapper_basicApp.swift */; };
-		E4D3109524EDD7AE00D6A1E3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4D3109424EDD7AE00D6A1E3 /* ContentView.swift */; };
 		E4D3109724EDD7B000D6A1E3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E4D3109624EDD7B000D6A1E3 /* Assets.xcassets */; };
 		E4D3109A24EDD7B000D6A1E3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E4D3109924EDD7B000D6A1E3 /* Preview Assets.xcassets */; };
 		E4D310A524EDD7B000D6A1E3 /* mapper_basicTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4D310A424EDD7B000D6A1E3 /* mapper_basicTests.swift */; };
 		E4D310B024EDD7B000D6A1E3 /* mapper_basicUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4D310AF24EDD7B000D6A1E3 /* mapper_basicUITests.swift */; };
+		E4D310BF24EDD80F00D6A1E3 /* mapper-basic.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E4D310BD24EDD80F00D6A1E3 /* mapper-basic.xcdatamodeld */; };
+		E4D310C124EDD96100D6A1E3 /* ScanListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4D310C024EDD96100D6A1E3 /* ScanListView.swift */; };
+		E4D310C324EDD96900D6A1E3 /* ScanListCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4D310C224EDD96900D6A1E3 /* ScanListCellView.swift */; };
+		E4D310C524EDD97300D6A1E3 /* ScanView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4D310C424EDD97300D6A1E3 /* ScanView.swift */; };
+		E4D310C724EDE52800D6A1E3 /* CreateScanView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4D310C624EDE52800D6A1E3 /* CreateScanView.swift */; };
+		E4D310C924EDE72500D6A1E3 /* PointCloudVisualizationHostView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4D310C824EDE72500D6A1E3 /* PointCloudVisualizationHostView.swift */; };
+		E4D310CB24EDE72E00D6A1E3 /* StartScanView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4D310CA24EDE72E00D6A1E3 /* StartScanView.swift */; };
+		E4D310CD24EDE9CC00D6A1E3 /* ScanRecorderHostView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4D310CC24EDE9CC00D6A1E3 /* ScanRecorderHostView.swift */; };
+		E4FD65F124F177CA00115A6D /* PointCloudVisualizationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4FD65F024F177CA00115A6D /* PointCloudVisualizationViewController.swift */; };
+		E4FD65F324F177E900115A6D /* PointCloudVisualizationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4FD65F224F177E900115A6D /* PointCloudVisualizationView.swift */; };
+		E4FD65F724F17E8400115A6D /* ShareSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4FD65F624F17E8400115A6D /* ShareSheet.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,9 +54,21 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E4132D2F24EF16E6002411AD /* ScanRecorderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScanRecorderViewController.swift; sourceTree = "<group>"; };
+		E4132D3124EF1710002411AD /* ScanRecorderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScanRecorderView.swift; sourceTree = "<group>"; };
+		E4132D3324EF1726002411AD /* ScanRecorderViewControllerDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScanRecorderViewControllerDelegate.swift; sourceTree = "<group>"; };
+		E4132D3524EF17D9002411AD /* PointCloud.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PointCloud.swift; sourceTree = "<group>"; };
+		E4132D3724EF17E8002411AD /* PointCloudManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PointCloudManager.swift; sourceTree = "<group>"; };
+		E4132D3C24EF1837002411AD /* PointCloudTypes.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PointCloudTypes.h; sourceTree = "<group>"; };
+		E4132D3D24EF1840002411AD /* PointCloud.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; path = PointCloud.metal; sourceTree = "<group>"; };
+		E4132D3F24EF1853002411AD /* mapper-basic-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "mapper-basic-Bridging-Header.h"; sourceTree = "<group>"; };
+		E4132D4024EF186C002411AD /* MetalBuffer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetalBuffer.swift; sourceTree = "<group>"; };
+		E4132D4224EF1925002411AD /* ScanRecorder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScanRecorder.swift; sourceTree = "<group>"; };
+		E4132D4424EF1990002411AD /* ARViewProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARViewProvider.swift; sourceTree = "<group>"; };
+		E4132D4924EF1C1F002411AD /* ScanRecorderDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScanRecorderDelegate.swift; sourceTree = "<group>"; };
+		E4132D4B24EF1FB7002411AD /* Scan.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Scan.swift; sourceTree = "<group>"; };
 		E4D3108F24EDD7AE00D6A1E3 /* mapper-basic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "mapper-basic.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4D3109224EDD7AE00D6A1E3 /* mapper_basicApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mapper_basicApp.swift; sourceTree = "<group>"; };
-		E4D3109424EDD7AE00D6A1E3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		E4D3109624EDD7B000D6A1E3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E4D3109924EDD7B000D6A1E3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		E4D3109B24EDD7B000D6A1E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -45,6 +78,17 @@
 		E4D310AB24EDD7B000D6A1E3 /* mapper-basicUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "mapper-basicUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4D310AF24EDD7B000D6A1E3 /* mapper_basicUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mapper_basicUITests.swift; sourceTree = "<group>"; };
 		E4D310B124EDD7B000D6A1E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E4D310BE24EDD80F00D6A1E3 /* mapper-basic.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "mapper-basic.xcdatamodel"; sourceTree = "<group>"; };
+		E4D310C024EDD96100D6A1E3 /* ScanListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScanListView.swift; sourceTree = "<group>"; };
+		E4D310C224EDD96900D6A1E3 /* ScanListCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScanListCellView.swift; sourceTree = "<group>"; };
+		E4D310C424EDD97300D6A1E3 /* ScanView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScanView.swift; sourceTree = "<group>"; };
+		E4D310C624EDE52800D6A1E3 /* CreateScanView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateScanView.swift; sourceTree = "<group>"; };
+		E4D310C824EDE72500D6A1E3 /* PointCloudVisualizationHostView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PointCloudVisualizationHostView.swift; sourceTree = "<group>"; };
+		E4D310CA24EDE72E00D6A1E3 /* StartScanView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartScanView.swift; sourceTree = "<group>"; };
+		E4D310CC24EDE9CC00D6A1E3 /* ScanRecorderHostView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScanRecorderHostView.swift; sourceTree = "<group>"; };
+		E4FD65F024F177CA00115A6D /* PointCloudVisualizationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PointCloudVisualizationViewController.swift; sourceTree = "<group>"; };
+		E4FD65F224F177E900115A6D /* PointCloudVisualizationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PointCloudVisualizationView.swift; sourceTree = "<group>"; };
+		E4FD65F624F17E8400115A6D /* ShareSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareSheet.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,9 +116,55 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E4132D3B24EF1821002411AD /* Metal */ = {
+			isa = PBXGroup;
+			children = (
+				E4132D3C24EF1837002411AD /* PointCloudTypes.h */,
+				E4132D3D24EF1840002411AD /* PointCloud.metal */,
+				E4132D3F24EF1853002411AD /* mapper-basic-Bridging-Header.h */,
+				E4132D4024EF186C002411AD /* MetalBuffer.swift */,
+			);
+			path = Metal;
+			sourceTree = "<group>";
+		};
+		E4132D4624EF1ADF002411AD /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				E4FD65EF24F1777D00115A6D /* ScanVisualization */,
+				E4132D4824EF1B1E002411AD /* ScanRecorder */,
+				E4132D4724EF1AF0002411AD /* Scan */,
+				E4FD65F624F17E8400115A6D /* ShareSheet.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		E4132D4724EF1AF0002411AD /* Scan */ = {
+			isa = PBXGroup;
+			children = (
+				E4D310C024EDD96100D6A1E3 /* ScanListView.swift */,
+				E4D310C224EDD96900D6A1E3 /* ScanListCellView.swift */,
+				E4D310C424EDD97300D6A1E3 /* ScanView.swift */,
+				E4D310C624EDE52800D6A1E3 /* CreateScanView.swift */,
+				E4D310CA24EDE72E00D6A1E3 /* StartScanView.swift */,
+			);
+			path = Scan;
+			sourceTree = "<group>";
+		};
+		E4132D4824EF1B1E002411AD /* ScanRecorder */ = {
+			isa = PBXGroup;
+			children = (
+				E4D310CC24EDE9CC00D6A1E3 /* ScanRecorderHostView.swift */,
+				E4132D2F24EF16E6002411AD /* ScanRecorderViewController.swift */,
+				E4132D3124EF1710002411AD /* ScanRecorderView.swift */,
+				E4132D3324EF1726002411AD /* ScanRecorderViewControllerDelegate.swift */,
+			);
+			path = ScanRecorder;
+			sourceTree = "<group>";
+		};
 		E4D3108624EDD7AE00D6A1E3 = {
 			isa = PBXGroup;
 			children = (
+				E4D310BD24EDD80F00D6A1E3 /* mapper-basic.xcdatamodeld */,
 				E4D3109124EDD7AE00D6A1E3 /* mapper-basic */,
 				E4D310A324EDD7B000D6A1E3 /* mapper-basicTests */,
 				E4D310AE24EDD7B000D6A1E3 /* mapper-basicUITests */,
@@ -96,10 +186,17 @@
 			isa = PBXGroup;
 			children = (
 				E4D3109224EDD7AE00D6A1E3 /* mapper_basicApp.swift */,
-				E4D3109424EDD7AE00D6A1E3 /* ContentView.swift */,
+				E4132D3B24EF1821002411AD /* Metal */,
+				E4132D4624EF1ADF002411AD /* Views */,
 				E4D3109624EDD7B000D6A1E3 /* Assets.xcassets */,
 				E4D3109B24EDD7B000D6A1E3 /* Info.plist */,
 				E4D3109824EDD7B000D6A1E3 /* Preview Content */,
+				E4132D3524EF17D9002411AD /* PointCloud.swift */,
+				E4132D3724EF17E8002411AD /* PointCloudManager.swift */,
+				E4132D4224EF1925002411AD /* ScanRecorder.swift */,
+				E4132D4424EF1990002411AD /* ARViewProvider.swift */,
+				E4132D4924EF1C1F002411AD /* ScanRecorderDelegate.swift */,
+				E4132D4B24EF1FB7002411AD /* Scan.swift */,
 			);
 			path = "mapper-basic";
 			sourceTree = "<group>";
@@ -128,6 +225,16 @@
 				E4D310B124EDD7B000D6A1E3 /* Info.plist */,
 			);
 			path = "mapper-basicUITests";
+			sourceTree = "<group>";
+		};
+		E4FD65EF24F1777D00115A6D /* ScanVisualization */ = {
+			isa = PBXGroup;
+			children = (
+				E4D310C824EDE72500D6A1E3 /* PointCloudVisualizationHostView.swift */,
+				E4FD65F024F177CA00115A6D /* PointCloudVisualizationViewController.swift */,
+				E4FD65F224F177E900115A6D /* PointCloudVisualizationView.swift */,
+			);
+			path = ScanVisualization;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,8 +366,29 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E4D3109524EDD7AE00D6A1E3 /* ContentView.swift in Sources */,
+				E4D310C924EDE72500D6A1E3 /* PointCloudVisualizationHostView.swift in Sources */,
+				E4D310C324EDD96900D6A1E3 /* ScanListCellView.swift in Sources */,
+				E4132D4124EF186C002411AD /* MetalBuffer.swift in Sources */,
+				E4132D3E24EF1840002411AD /* PointCloud.metal in Sources */,
+				E4132D3824EF17E8002411AD /* PointCloudManager.swift in Sources */,
+				E4FD65F124F177CA00115A6D /* PointCloudVisualizationViewController.swift in Sources */,
+				E4D310BF24EDD80F00D6A1E3 /* mapper-basic.xcdatamodeld in Sources */,
+				E4132D4C24EF1FB7002411AD /* Scan.swift in Sources */,
+				E4FD65F324F177E900115A6D /* PointCloudVisualizationView.swift in Sources */,
+				E4132D3224EF1710002411AD /* ScanRecorderView.swift in Sources */,
+				E4D310CB24EDE72E00D6A1E3 /* StartScanView.swift in Sources */,
+				E4D310C124EDD96100D6A1E3 /* ScanListView.swift in Sources */,
+				E4132D4524EF1990002411AD /* ARViewProvider.swift in Sources */,
 				E4D3109324EDD7AE00D6A1E3 /* mapper_basicApp.swift in Sources */,
+				E4D310C524EDD97300D6A1E3 /* ScanView.swift in Sources */,
+				E4132D4324EF1925002411AD /* ScanRecorder.swift in Sources */,
+				E4D310C724EDE52800D6A1E3 /* CreateScanView.swift in Sources */,
+				E4132D4A24EF1C1F002411AD /* ScanRecorderDelegate.swift in Sources */,
+				E4132D3024EF16E6002411AD /* ScanRecorderViewController.swift in Sources */,
+				E4132D3424EF1726002411AD /* ScanRecorderViewControllerDelegate.swift in Sources */,
+				E4FD65F724F17E8400115A6D /* ShareSheet.swift in Sources */,
+				E4132D3624EF17D9002411AD /* PointCloud.swift in Sources */,
+				E4D310CD24EDE9CC00D6A1E3 /* ScanRecorderHostView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -429,6 +557,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.theochemel.mapper-basic";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "mapper-basic/Metal/mapper-basic-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -451,6 +580,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.theochemel.mapper-basic";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "mapper-basic/Metal/mapper-basic-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -580,6 +710,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		E4D310BD24EDD80F00D6A1E3 /* mapper-basic.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				E4D310BE24EDD80F00D6A1E3 /* mapper-basic.xcdatamodel */,
+			);
+			currentVersion = E4D310BE24EDD80F00D6A1E3 /* mapper-basic.xcdatamodel */;
+			path = "mapper-basic.xcdatamodeld";
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = E4D3108724EDD7AE00D6A1E3 /* Project object */;
 }
